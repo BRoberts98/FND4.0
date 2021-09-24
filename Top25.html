@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Dropdowns within a Navbar</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="m-3">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Football News Daily</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="https://broberts98.github.io/FND4.0/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NFL</a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="https://broberts98.github.io/FND4.0/NFL.html" class="dropdown-item">NFL Home</a>
+                            <a href="#" class="dropdown-item">Power Rankings</a>
+                            <a href="#" class="dropdown-item">Conference Standings</a>
+                            <a href="#" class="dropdown-item">Scores</a>
+                            <a href="#" class="dropdown-item">News</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NCAA</a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="https://broberts98.github.io/FND4.0/NCAA.html" class="dropdown-item">NCAA Home</a>
+                            <a href="#" class="dropdown-item">Top 25</a>
+                            <a href="#" class="dropdown-item">Conference Standings</a>
+                            <a href="#" class="dropdown-item">Scores</a>
+                            <a href="#" class="dropdown-item">News</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+<br>
+<h1 class="text-center"><strong>FND'S Top 25</strong></h1>
+<div class="container mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Bama.jpg" alt="Forest" style="width:50%"><br/>1. Alabama 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/UGA.jpg" alt="Forest" style="width:50%"><br/>
+        2. Georgia 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Oregon.png" alt="Forest" style="width:50%"><br/>
+        3. Oregon 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/OU.jpg" alt="Forest" style="width:50%"><br/>
+        4. Oklahoma 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Iowa.jpg" alt="Forest" style="width:50%"><br/>
+        5. Iowa 3-0</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/PSU.png" alt="Forest" style="width:50%"><br/>
+        6. Penn State 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/TA&M.jpg" alt="Forest" style="width:50%"><br/>
+        7. Texas A&M 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Cincy.jpg" alt="Forest" style="width:50%"><br/>
+        8. Cincinatti 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Clemson.jpg" alt="Forest" style="width:50%"><br/>
+        9. Clemson 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/OSU.jpg" alt="Forest" style="width:50%"><br/>
+        10. Ohio State University 2-1</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/UF.png" alt="Forest" style="width:50%"><br/>
+        11. Florida 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/ND.jpg" alt="Forest" style="width:50%"><br/>
+        12. Notre Dame 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/OleMiss.png" alt="Forest" style="width:50%"><br/>
+        13. Ole Miss 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/ISU.jpg" alt="Forest" style="width:50%"><br/>
+            14. Iowa State 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/BYU.png" alt="Forest" style="width:50%"><br/>
+            15. BYU 3-0</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Arky.png" alt="Forest" style="width:50%"><br/>
+            16. Arkansas 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Coastal.png" alt="Forest" style="width:50%"><br/>
+            17. Coastal Carolina 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Wisconsin.png" alt="Forest" style="width:50%"><br/>
+            18. Wisconsin 1-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Michigan.png" alt="Forest" style="width:50%"><br/>
+            19. Michigan 3-0</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Sparty.png" alt="Forest" style="width:50%"><br/>
+            20. Michigan State 3-0</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/UNC.png" alt="Forest" style="width:50%"><br/>
+            21. North Carolina 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Fresno.png" alt="Forest" style="width:50%"><br/>
+            22. Fresno State 3-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/Auburn.png" alt="Forest" style="width:50%"><br/>
+            23. Auburn 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/UCLA.png" alt="Forest" style="width:50%"><br/>
+            24. UCLA 2-1</p>
+      </div>
+      <div class="col-sm">
+        <p class="text-center"><img src="logos/KState.png" alt="Forest" style="width:50%"><br/>
+            25. Kansas State 3-0</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
