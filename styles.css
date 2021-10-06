@@ -2,6 +2,35 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bs-maroon: #782f40;
+    --bs-gold: #9e7e38;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #7B1FA2;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #00B0FF;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
 html{
     overflow: auto;
     height: 100%;
@@ -18,7 +47,7 @@ body{
 body::after {
     content: "";
     background: url(FND2.JPG);
-    opacity: 0.4;
+    opacity: 0.25;
     top: 0;
     left: 0;
     bottom: 0;
@@ -115,3 +144,540 @@ body::after {
     }
 }
 
+.p-2{
+    align-items: center;
+    justify-content: center;
+}
+
+.Conf{
+    text-decoration: none;
+    color: black;
+}
+
+/*AAC Color Hex Codes*/
+.ECU{
+    color: var(--bs-purple);
+}
+.UCF{
+    color: #ba9b37;
+}
+.Navy{
+    color: #c5b783;
+}
+.UH{
+    Color: #c8102e
+}
+
+.SMU{
+    color: #0033a0;
+}
+
+.CincyB{
+    Color: #e00122;
+}
+
+.Mem{
+    color: #003087;
+}
+
+.Tem{
+    color: #9d2235;
+}
+
+.USF{
+    color: #006747;
+}
+
+.Tulane{
+    color: #006747;
+}
+
+.Tulsa{
+    color: #002d72;
+}
+/*ACC Color Hex Codes*/
+.Hokies{
+    color: #cf4420;
+}
+
+.WF{
+    color: var(--bs-gold);
+}
+
+.UNC{
+    color: #7bafd4;
+}
+
+.FSU{
+    color: var(--bs-maroon);
+}
+
+.GT{
+    color: #bca369
+}
+
+.ULV{
+    color: #ad0000;
+}
+
+.NCSU{
+    color: #cc0000;
+}
+
+.CT{
+    color: #f56600;
+}
+
+.DU{
+    color: #003087;
+}
+
+.PittPanthers{
+    color: #003594;
+}
+
+.BC{
+    color: #98002e;
+}
+
+.Cuse{
+    color: #f76900;
+}
+
+.DaU{
+    color: #005030;
+}
+
+.VC{
+    color: #f84c1e;
+}
+
+/*Big 12 Hex Codes*/
+.Bay{
+    COLOR: #154734;
+}
+
+.OU{
+    COLOR: #841617;
+}
+
+.OKST{
+    COLOR: #FF7300;
+}
+
+.Texas{
+    COLOR: #BF5700;
+}
+
+.TCU{
+    COLOR: #4D1979;
+}
+
+.KSU{
+    COLOR: #512888;
+}
+
+.TTU{
+    COLOR: #CC0000;
+}
+
+.ISU{
+    COLOR: #C8102E;
+}
+
+.WVU{
+    COLOR: #002855;
+}
+
+.KU{
+    COLOR: #0051BA;
+}
+
+/*Big 10 Hex Codes*/
+
+.MSU{
+    COLOR: #18453B;
+}
+
+.MD{
+    COLOR: #E03A3E;
+}
+
+.UM{
+    COLOR: #00274C;
+}
+
+.PSU{
+    COLOR: #041E42;
+}
+
+.OSU{
+    COLOR: #BB0000;
+}
+
+.RU{
+    COLOR: #CC0033;
+}
+
+.IU{
+    COLOR: #990000;
+}
+
+.Iowa{
+    COLOR: #FFCC33;
+}
+
+.PUR{
+    COLOR: #CEB888;
+}
+
+.ILL{
+    COLOR: #13294B;
+}
+
+.Minn{
+    color: #FFCC33;
+}
+
+.NU{
+    COLOR: #4E2A84;
+}
+
+.Wisc{
+    COLOR: #C5050C;
+}
+
+.Neb{
+    COLOR: #E41C38;
+}
+
+/*C-USA Hex Codes*/
+
+.CLT{
+    COLOR: #046A38;
+}
+
+.FAU{
+    COLOR: #003366;
+}
+
+.MRSH{
+    COLOR: #00B140;
+}
+
+.WKU{
+    COLOR: #C60C30;
+}
+
+.FIU{
+    COLOR: #081E3F;
+}
+
+.ODU{
+    COLOR: #003057;
+}
+
+.MTSU{
+    COLOR: #0066CC;
+}
+
+.UTSA{
+    COLOR: #F15A22;
+}
+
+.UAB{
+    COLOR: #006341;
+}
+
+.LT{
+    COLOR: #E31B23;
+}
+
+.UTEP{
+    COLOR: #FF8200;
+}
+
+.Rice{
+    COLOR: #00205B;
+}
+
+.USM{
+    COLOR: #FFAB00;
+}
+
+.UNT{
+    COLOR: #00853E;
+}
+
+/*Independents Hex Codes*/
+.ND{
+    COLOR: #C99700;
+}
+
+.Army{
+    COLOR: #D4BF91;
+}
+
+.BYU{
+    COLOR: #002E5D;
+}
+
+.Liberty{
+    COLOR: #002D62;
+}
+
+.NMSU{
+    COLOR: #861F41;
+}
+
+.Mass{
+    COLOR: #971B2F;
+}
+
+.Uconn{
+    COLOR: #000E2F;
+}
+/*MAC Hex Codes*/
+.Toledo{
+    COLOR: #15397F;
+}
+
+.BGSU{
+    COLOR: #FE5000;
+}
+
+.Buff{
+    COLOR: #005BBB;
+}
+
+.Akron{
+    COLOR: #041E42;
+}
+
+.Kent{
+    COLOR: #EAAB00;
+}
+
+.MiamiOhio{
+    COLOR: #B61E2E;
+}
+
+.Ohio{
+    COLOR: #00694E;
+}
+
+.EMU{
+    COLOR: #006633;
+}
+
+.WMU{
+    COLOR: #6C4023;
+}
+
+.CMU{
+    COLOR: #6A0032;
+}
+
+.NIU{
+    COLOR: #BA0C2F;
+}
+
+.Ball{
+    COLOR: #BA0C2F;
+}
+
+/*Moutain West Hex Codes*/
+.BSU{
+    COLOR: #D64309;
+}
+
+.UtahState{
+    COLOR: #00263A;
+}
+
+.Wyoming{
+    COLOR: #FFC425;
+}
+
+.UNM{
+    COLOR: #BA0C2F;
+}
+
+.CSU{
+    COLOR: #1E4D2B;
+}
+
+.AFA{
+    COLOR: #003087;
+}
+
+.Fresno{
+    COLOR: #DB0032;
+}
+
+.SJSU{
+    COLOR: #0055A2;
+}
+
+.SDSU{
+    COLOR: #A6192E;
+}
+
+.NEV{
+    COLOR: #003366;
+}
+
+.HAW{
+    COLOR: #024731;
+}
+
+.Unlv{
+    COLOR: #CF0A2C;
+}
+
+/*Pac 12 Hex Codes*/
+.Oregon{
+    COLOR: #154733;
+}
+
+.OregonSt{
+    COLOR: #DC4405;
+}
+
+.Wash{
+    COLOR: #4B2E83;
+}
+
+.Stanford{
+color: #8C1515;
+}
+
+.Cal{
+    COLOR: #003262;
+}
+
+.WSU{
+    COLOR: #981E32;
+}
+
+.ASU{
+    COLOR: #8C1D40;
+}
+
+.UCLA{
+color: #2D68C4;
+}
+
+.Utah{
+    COLOR: #CC0000;
+}
+
+.USC{
+color: #990000;
+}
+
+.Colorado{
+    COLOR: #CFB87C;
+}
+
+.Zona{
+    COLOR: #CC0033; 
+}
+
+/*SEC Hex Codes*/
+.UGA{
+    COLOR: #BA0C2F;
+}
+
+.Bama{
+    COLOR: #9E1B32;
+}
+
+.UF{
+    COLOR: #0021A5;
+}
+
+.USCjr{
+    COLOR: #73000A;
+}
+
+.Tenn{
+    COLOR: #FF8200;
+}
+
+.Mizzou{
+    COLOR: #F1B82D;
+}
+
+.Vandy{
+    COLOR: #866D4B;
+}
+
+.Kentucky{
+    COLOR: #0033A0;
+}
+
+.Arky{
+color: #9D2235;
+}
+
+.LSU{
+    COLOR: #461D7C;
+}
+
+.Miss{
+    COLOR: #CE1126;
+}
+
+.MissState{
+    COLOR: #660000;
+}
+
+.A-M{
+    COLOR: #500000;
+}
+
+.Auburn{
+    COLOR: #0C2340;
+}
+
+/*Sun Belt Hex Codes*/
+.APP{
+    COLOR: #FFCC00;
+}
+
+.ArkyState{
+    COLOR: #CC092F;
+}
+
+.Coastal{
+    COLOR: #006F71;
+}
+
+.GSU{
+    COLOR: #011E41;
+}
+
+.GaSt{
+    COLOR: #0039A6;
+}
+
+.UL{
+    COLOR: #CE181E;
+}
+
+.ULM{
+    COLOR: #840029;
+}
+
+.USA{
+    COLOR: #00205B;
+}
+
+.TxSt{
+    COLOR: #501214;
+}
+
+.Troy{
+    COLOR: #8A2432;
+}
